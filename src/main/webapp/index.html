@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Base Converter</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<h1>Base Converter</h1>
+<div class="input-container">
+    <label for="decimalInput">Enter a decimal number:</label>
+    <input type="text" id="decimalInput">
+</div>
+<div class="button-container">
+    <button onclick="convertToBase('hex')">Convert to Hex</button>
+    <button onclick="convertToBase('octal')">Convert to Octal</button>
+    <button onclick="convertToBase('binary')">Convert to Binary</button>
+    <button onclick="clearInput()">Clear</button>
+</div>
+<div class="result-container">
+    <label>Result:</label>
+    <output id="conversionResult"></output>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
